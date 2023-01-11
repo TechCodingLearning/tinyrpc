@@ -56,4 +56,5 @@ func getComments(comments protogen.CommentSet) string {
 		}
 		res += "//" + comment + "\n"
 	}
+	return res
 }
